@@ -1,0 +1,137 @@
+.sprite {
+    background-image: url(../images/social/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+#facebook {
+    width: 90px;
+    height: 90px;
+    background-position: -5px -5px;
+}
+
+#facebook:hover {
+    width: 90px;
+    height: 90px;
+    background-position: -105px -5px;
+}
+
+#google {
+    width: 90px;
+    height: 90px;
+    background-position: -205px -5px;
+}
+
+#google:hover {
+    width: 90px;
+    height: 90px;
+    background-position: -5px -105px;
+}
+
+#linkedin {
+    width: 90px;
+    height: 90px;
+    background-position: -105px -105px;
+}
+
+#linkedin:hover  {
+    width: 90px;
+    height: 90px;
+    background-position: -205px -105px;
+}
+
+#skype {
+    width: 90px;
+    height: 90px;
+    background-position: -5px -205px;
+}
+
+#skype:hover  {
+    width: 90px;
+    height: 90px;
+    background-position: -105px -205px;
+}
+
+#youtube {
+    width: 90px;
+    height: 90px;
+    background-position: -205px -205px;
+}
+
+#youtube:hover {
+    width: 90px;
+    height: 90px;
+    background-position: -305px -5px;
+}
+
+
+@media only screen and (max-width: 480px) and (min-width: 240px) {
+
+    .sprite {
+    background-image: url(../images/social/spritesheet-mob.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+#facebook {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -5px;
+}
+
+#facebook:hover {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -5px;
+}
+
+#google {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -5px;
+}
+
+#google:hover {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -45px;
+}
+
+#linkedin {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -45px;
+}
+
+#linkedin:hover  {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -45px;
+}
+
+#skype {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -85px;
+}
+
+#skype:hover {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -85px;
+}
+
+#youtube {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -85px;
+}
+
+#youtube:hover {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -5px;
+}
+
+
+}
