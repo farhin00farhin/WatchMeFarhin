@@ -41,6 +41,9 @@ body {
         -ms-transition: 0.5s all;
         color: rgb(42, 162, 151);
     }
+    body a.no-decoration {
+        color: #eee;
+    }
 
 body {
     padding-top: 0px;
@@ -116,6 +119,7 @@ a:focus {
     .personal-details h3 {
         font-size: 16px;
         color: #2aa297;
+        margin-top: 7px;
     }
 
 .details i {
@@ -251,7 +255,7 @@ address span {
     padding-bottom: 1em;
 }
 
-.cmpny1 b, .education_details b {
+.cmpny1 b, .education_details b, .company_details b {
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
